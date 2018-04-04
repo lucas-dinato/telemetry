@@ -107,9 +107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc41180383a754f8ab4dba6c4d75c585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isSavingActivated: 0
+  isSavingActivated: 1
   playableScenes:
-  - Game
+  - Level
 --- !u!114 &114633695647822436
 MonoBehaviour:
   m_ObjectHideFlags: 1

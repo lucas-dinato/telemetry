@@ -8,7 +8,7 @@ using UnityEngine;
 //[CreateAssetMenu(fileName = "DBFirebase", menuName = "Telemetry/DBFirebase")]
 public class DBFirebase{
 
-	public string dbUrl = "https://estudo-2f608.firebaseio.com/";
+	public string dbUrl = "https://tcc1-e3d76.firebaseio.com/";
 
 	DatabaseReference reference;
 
