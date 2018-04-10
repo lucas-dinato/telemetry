@@ -11,8 +11,6 @@ public class Telemetry_Synthesis : MonoBehaviour {
 	public bool loadInfo = false;
 	public bool read = false;
 
-    [Space(10)]
-
 	public int totalSessions = 0;
 	public string avgSessionDuration = "";
 	public float avgRoundsPerSession = 0;
