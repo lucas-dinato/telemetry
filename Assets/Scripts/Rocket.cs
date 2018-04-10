@@ -4,10 +4,20 @@ using System.Collections;
 public class Rocket : MonoBehaviour 
 {
 	public GameObject explosion;		// Prefab of explosion effect.
-
+	int shotEventNodeId = -1;
 
 	void Start () 
 	{
+		// Telemetry: Create a Chain Event Node
+		TelemetryNode playerShoot = new TelemetryNode(
+			TelemetryNodeType.ChainEvent,
+			"Player shot",
+			transform.position
+		);
+
+		// Telemetry: Save the event node ID
+		shotEventNodeId = TelemetryCore.addNode(playerShoot);
+
 		// Destroy the rocket after 2 seconds if it doesn't get destroyed before then.
 		Destroy(gameObject, 2);
 	}
@@ -29,6 +39,18 @@ public class Rocket : MonoBehaviour
 		{
 			// ... find the Enemy script and call the Hurt function.
 			col.gameObject.GetComponent<Enemy>().Hurt();
+
+            // Telemetry: Creates new event to be linked with the previous one
+            // This generates a relation of cause and consequence between them
+            TelemetryNode enemyHit = new TelemetryNode(
+				TelemetryNodeType.ChainEvent,
+				"Enemy was hit",
+				col.transform.position
+			);
+
+            // Telemetry: Links the new event with the previous one (Player Shot)
+            enemyHit.setLink(shotEventNodeId);
+            TelemetryCore.addNode(enemyHit);
 
 			// Call the explosion instantiation.
 			OnExplode();
