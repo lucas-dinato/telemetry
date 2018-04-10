@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc41180383a754f8ab4dba6c4d75c585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isSavingActivated: 1
+  isSavingActivated: 0
   playableScenes:
   - Level
 --- !u!114 &114633695647822436
@@ -128,12 +128,12 @@ MonoBehaviour:
     type: 2}
   chainEventModel: {fileID: 1319933964516322, guid: 97539cebf794243d0a70b78c41a407d2,
     type: 2}
-  sceneName: 
   detectSceneName: 1
-  loadInfo: 0
+  sceneName: 
+  loadInfo: 1
   draw: 0
   roundsCount: 0
-  selectedRound: 12
+  selectedRound: 0
 --- !u!114 &114779675097502408
 MonoBehaviour:
   m_ObjectHideFlags: 1
