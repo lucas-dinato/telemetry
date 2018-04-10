@@ -28,8 +28,8 @@ public class Telemetry_MouseHandler : MonoBehaviour {
     RaycastHit hit;
     Ray ray = HandleUtility.GUIPointToWorldRay(Event.current.mousePosition);
 
-    if (Physics.Raycast (ray, out hit, 100f)) {
-
+    if (Physics.Raycast (ray, out hit)) {
+      Debug.Log("hitu");
       if(hit.transform.tag.Equals(telemetryNodeTag)) {
         currentTooltipHandler = hit.transform.GetComponent<Telemetry_NodeInfoHolder>();
         JToken nodeInfo = currentTooltipHandler.getInfo();
