@@ -46,8 +46,20 @@ public class PlayerHealth : MonoBehaviour
 				// If the player doesn't have health, do some stuff, let him fall into the river to reload the level.
 				else
 				{
-					// Find all of the colliders on the gameobject and set them all to be triggers.
-					Collider2D[] cols = GetComponents<Collider2D>();
+
+					// Create a node for a death event
+                    TelemetryNode playerDeath = new TelemetryNode(
+						TelemetryNodeType.SingleEvent,
+						"Player died",
+						transform.position
+         		  	 );
+
+					// Register the node
+                    TelemetryCore.addNode(playerDeath);
+
+
+                    // Find all of the colliders on the gameobject and set them all to be triggers.
+                    Collider2D[] cols = GetComponents<Collider2D>();
 					foreach(Collider2D c in cols)
 					{
 						c.isTrigger = true;
