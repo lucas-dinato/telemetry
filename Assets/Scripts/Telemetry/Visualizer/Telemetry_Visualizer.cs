@@ -78,8 +78,9 @@ public class Telemetry_Visualizer : MonoBehaviour {
 		foreach (var node in roundNodes[selectedRound]) {
 			Vector3 position = positionVectorFromNode (node);
 			string nodeType = node["Type"].Value<string> ();
+			int nodeID = node["ID"].Value<int> ();
 
-			GameObject instantiatedNode = instantiateNode (nodeType, position);
+			GameObject instantiatedNode = instantiateNode (nodeType, nodeID, position);
 			instantiatedNode.transform.SetParent (nodesBag.transform);
 
 			Telemetry_NodeInfoHolder tooltip = instantiatedNode.GetComponent<Telemetry_NodeInfoHolder> ();
@@ -96,15 +97,18 @@ public class Telemetry_Visualizer : MonoBehaviour {
 		}
 	}
 
-	GameObject instantiateNode (string nodeType, Vector3 position) {
+	GameObject instantiateNode (string nodeType, int nodeId, Vector3 position) {
 		GameObject instantiatedNode = null;
 
 		if (nodeType == "Atomic") {
 			instantiatedNode = Instantiate (atomicModel, position, Quaternion.Euler (Vector3.up));
+			instantiatedNode.name = "Atomic " + nodeId;
 		} else if (nodeType == "Single Event") {
 			instantiatedNode = Instantiate (singleEventModel, position, Quaternion.Euler (Vector3.up));
+			instantiatedNode.name = "Single Event " + nodeId;
 		} else if (nodeType == "Chain Event") {
 			instantiatedNode = Instantiate (chainEventModel, position, Quaternion.Euler (Vector3.up));
+			instantiatedNode.name = "Chain Event " + nodeId;
 		}
 
 		return instantiatedNode;
