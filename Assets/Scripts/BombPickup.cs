@@ -21,7 +21,9 @@ public class BombPickup : MonoBehaviour
 	{
 		// If the player enters the trigger zone...
 		if(other.tag == "Player")
-		{
+		{	
+			Telemetry.createSingleEvent ("Got Bomb", transform.position);
+
 			// ... play the pickup sound effect.
 			AudioSource.PlayClipAtPoint(pickupClip, transform.position);
 

@@ -18,10 +18,15 @@ public class PositionTracker : MonoBehaviour {
 	}
 
 	void track() {
+		dynamic additionalMetaData = new ExpandoObject();
+		additionalMetaData.looking = transform.lossyScale.x > 0 ? "right" : "left";
+
+
 		TelemetryNode playerPosition = new TelemetryNode(
 			TelemetryNodeType.Atomic,
 			"Player Position",
-			transform.position
+			transform.position,
+			additionalMetaData
 		);
 
 		if(lastPositionId != -1) {
