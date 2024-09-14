@@ -4,57 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="510f1d0a-46d6-4c55-9586-d4eb3c8187d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Google/Firebase/Editor/Firebase.Editor.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Google/Firebase/Editor/Firebase.Editor.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Telemetry/Database/DBFirebase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Telemetry/Database/DBFirebase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Telemetry/Visualizer/Telemetry_MouseHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Telemetry/Visualizer/Telemetry_MouseHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienShip-damaged.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienShip-damaged.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienShip-dead.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienShip-dead.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienShip.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienShip.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienSlug-dead.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienSlug-dead.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienSlug.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Character/char_enemy_alienSlug.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Character/char_hero_beanMan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Character/char_hero_beanMan.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_Bank.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_Bank.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_BigBen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_BigBen.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_Clouds.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_Clouds.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_Fog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_Fog.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_Gherkin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_Gherkin.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_PlatformBridge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_PlatformBridge.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_PlatformTop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_PlatformTop.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_PlatformUfo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_PlatformUfo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_RiverBase.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_RiverBase.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_RiverMid.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_RiverMid.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_RiverTop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_RiverTop.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_TowerFull.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_TowerFull.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_UfoLegs.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_UfoLegs.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_bg.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_cloudTop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Environment/env_cloudTop.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_FX/Circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_FX/Circle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_FX/part_explosion.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_FX/part_explosion.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_FX/part_smokepuffs.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_FX/part_smokepuffs.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_FX/splash.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_FX/splash.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/Bus.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/Bus.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/Cab.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/Cab.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/part_flame.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/part_flame.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/part_rocket.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/part_rocket.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/prop_bomb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/prop_bomb.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/prop_crate_ammo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/prop_crate_ammo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/prop_crate_health.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/prop_crate_health.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/prop_parachute.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/prop_parachute.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_Props/swan_Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_Props/swan_Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_UI/Health-bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_UI/Health-bg.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_UI/Health.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_UI/Health.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_UI/numeric-0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_UI/numeric-0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/_UI/numeric-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/_UI/numeric-1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="510f1d0a-46d6-4c55-9586-d4eb3c8187d0" name="Changes" comment="update .idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +47,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2llULymx4sGVOq5QKFN7dZ0wSZf" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -134,6 +84,14 @@
       <workItem from="1725926225315" duration="51000" />
       <workItem from="1725926300913" duration="656000" />
     </task>
+    <task id="LOCAL-00001" summary="update .idea">
+      <created>1726324991423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726324991423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,5 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .idea" />
   </component>
 </project>
